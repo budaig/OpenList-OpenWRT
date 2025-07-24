@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/OpenListTeam/OpenList/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=fc81ee53b8c81b18d77bfa82729e0e182e358359020cc02fa770ce8b4aeb26ac
+PKG_HASH:=4ea127ae2e6a6b2d9c2249bb9889baa6d18e9a5a7de1527d6b9795dcecb7ad9a
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/OpenList-$(PKG_VERSION)
 
