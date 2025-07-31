@@ -11,7 +11,7 @@ PKG_VERSION:=4.0.9
 PKG_WEB_VERSION:=4.0.9
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-lite.tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/OpenListTeam/OpenList/tar.gz/v$(PKG_VERSION)?
 PKG_HASH:=39034d543488ece70e7aa589201da4c9dd6d8cc3383c1e141022484323f96698
 
@@ -22,7 +22,7 @@ PKG_LICENSE_FILE:=LICENSE
 PKG_MAINTAINER:=OpenList Team <openlistteam@gmail.com>
 
 define Download/openlist-frontend
-  FILE:=openlist-frontend-dist-v$(PKG_WEB_VERSION).tar.gz
+  FILE:=openlist-frontend-dist-lite-v$(PKG_WEB_VERSION).tar.gz
   URL:=https://github.com/OpenListTeam/OpenList-Frontend/releases/download/v$(PKG_WEB_VERSION)/
   HASH:=08775533f6ab7b29c0265fd3ed9a554861df58df9f0d391992ae727e349200f1
 endef
