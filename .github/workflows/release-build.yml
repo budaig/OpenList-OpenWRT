@@ -1,6 +1,7 @@
 name: Build Packages
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [release-build]
 
